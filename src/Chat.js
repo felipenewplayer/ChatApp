@@ -55,7 +55,7 @@ export const Chat = ({ room }) => {
             <div className='messages'>
                 {messages.map((message) => (
                 <div className='message' key={message.id}>
-                    <span className='user'>{message.user}</span>
+                    <span className='user'>{message.user}:</span>
                     {message.text}
                 </div>
             )
